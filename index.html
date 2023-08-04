@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisa Homes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+
+
+
+
+  <div class="overlayss">
+    <span>
+       <img src="./images/home_overlay_logo.png" class="img-fluid logo1"  data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400" alt="logo">
+    </span>
+     </div>
+     
+     <div class="main">
+
+
+      <div class="mobile_container">
+    
+        <div class="header_mobile ">
+           <div class="conatiner-fluid col-11">
+            <div class="d-flex justify-content-between align-items-center mobile_pallete" >
+                <div>
+                    <a href="./index.html">
+                        <img src="./images/Sisahomeslogo.png" class="img-fluid  logo mx-5">
+                    </a>
+                   
+            </div>
+                <div class="icon-container mr-5">
+                  <i class="bi bi-list hamburger"></i>
+                    <img src="" class="img-fluid closed">
+            </div>
+                
+    
+            </div>
+           </div>
+          <div class="mobile-menu">
+            <ul class="menu">
+                <li class="menu-item"><a href="./index.html">Home</a>
+                </li>
+                <li class="menu-item"><a href="./about.html">About us</a>
+                </li>
+                <li class="menu-item">
+    
+                  <div class="dropdown mt-3 mb-3">
+                    <button class=" mobile_navbar_services dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     Services
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item service_toggle_mobile" href="./construction.html">Construction</a></li>
+                      <li><a class="dropdown-item service_toggle_mobile" href="./interior.html">Interior</a></li>
+                      <li><a class="dropdown-item service_toggle_mobile" href="./renovation.html">Renovation</a></li>
+                      <li><a class="dropdown-item service_toggle_mobile" href="./architecture.html">Architecture</a></li>
+                    </ul>
+                  </div>
+    
+                </li>       
+                <li class="menu-item"><a href="./estimator.html">Construction Estimator</a>
+                </li>    
+                <li class="menu-item"><a href="./career.html">Career</a>
+                </li>
+                <li class="menu-item"><a href="./projects.html">Projects</a>
+                </li>
+                <li class="menu-item"><a href="./contact.html">Contact us</a>
+                </li>
+                <li class="menu-item">  
+                    <div class="icon-container1 mt-4">
+                      <i class="bi bi-x-circle closed"></i>
+                    </div>  
+     
+                </li>
+                
+              </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg fixed sticky-top navbar-light bg-light">
+        <div class="container-fluid col-11">
+          <a class="navbar-brand" href="#"><img src="./images/Sisahomeslogo.png" class="img-fluid navbar_logo"></a>
+          <select class="home_navbar_location mx-3">
+            <option value="">Select a Location</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="Hubli-Dharvad">Hubli-Dharwad</option>
+          </select>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link  active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="./about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown_navbar">
+                  <div class="dropbtn">Services <i class="bi bi-chevron-down"></i> <i class="bi bi-chevron-up"></i></div>
+                  <div class="dropdown-content">
+                    <a class="nav-link" href="./construction.html">Construction</a>
+                    <a class="nav-link" href="./interior.html">Interior</a>
+                    <a class="nav-link" href="./architecture.html">Architecture</a>
+                    <a class="nav-link" href="./renovation.html">Renovation</a>
+                  </div>
+                </div> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="./estimator.html">Construction Estimator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="./career.html">Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="./projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" aria-current="page" href="./contact.html">Contact us</a>
+              </li>
+
+            </ul>
+    
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="single_item">
+        <div>
+
+            <div class="background_images">
+
+                <h2 class="home_head">
+                  We transform houses into homes with exquisite designs
+                </h2>
+
+                <div class="mt-5">
+                  <a href="./projects.html" class="link">
+                    <!-- <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      Open Project
+                  </button> -->
+                  <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      View Portfolio
+                  </button>
+                  </a>
+                  
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="background_images1">
+
+                <h2 class="home_head">
+                  Creating harmony and comfort in every corner of your home.
+                </h2>
+
+                <div class="mt-5">
+                  <a href="./projects.html" class="link">
+                    <!-- <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      Open Project
+                  </button> -->
+                  <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      View Portfolio
+                  </button>
+                  </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="background_images2">
+
+                <h2 class="home_head">
+                  We provide tailored designs for a home that perfectly suits your lifestyle.
+                </h2>
+
+                <div class="mt-5">
+                  <a href="./projects.html" class="link">
+                    <!-- <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      Open Project
+                  </button> -->
+                  <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      View Portfolio
+                  </button>
+                  </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="background_images3">
+
+                <h2 class="home_head">
+                  Unleashing the beauty within your home with thoughtful design.
+
+                </h2>
+
+                <div class="mt-5">
+                  <a href="./projects.html" class="link">
+                    <!-- <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      Open Project
+                  </button> -->
+                  <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      View Portfolio
+                  </button>
+                  </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div class="background_images4">
+
+                <h2 class="home_head">
+                  We believe that every home has a story to tell, and we can't wait to be a part of yours. 
+
+                </h2>
+
+                <div class="mt-5">
+                  <a href="./projects.html" class="link">
+                    <!-- <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      Open Project
+                  </button> -->
+                  <button class="home_banner_button mx-lg-5 mx-2 mt-5">
+                      View Portfolio
+                  </button>
+                  </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+      <div class="container-fluid col-lg-10 col-12 mt-5">
+        <div class="row pt-5 d-flex justify-content-center align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img src="./images/newimages/home/about.png" class="img-fluid about_home_img">
+            </div>
+    
+            <div class="col-lg-6 col-md-12 col-12">
+                <div class="ms-lg-5 ms-2">
+          <h2 class="about_home_head">
+            About
+          </h2>
+          <p class="about_home_parra mt-4">
+            At Sisa Homes, we believe in homes, not houses – by creating life spaces for you and generations
+             after, we build homes and spaces that ensure inheritance. As a leading contractor in Bangalore,
+              our focus is on developing projects in a well-planned manner that’s holistic in approach.
+               At Sisa Homes we focus on providing true value through our contracting, 
+            civil and interior services that conform to international quality standards at honest prices.
+          </p>
+          <a href="./about.html">
+            <button class="about_home_button mt-4 center-block d-block mx-auto mx-lg-0">
+              Open Project
+            </button>
+          </a>
+   
+            </div>
+            </div>
+        </div>
+      </div>
+
+
+      <section class="counter_format">
+        <div id="counter">
+            <div class="container-lg container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="counter-value " data-count="10" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                                <p class="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400"> 0</p>   
+                                </div>
+                                <p  class="counter-value"  data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">+</p>
+                        </div>
+                        
+                        <h3 class="counter_head mt-4" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                          Over-all Experience
+                        </h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="counter-value " data-count="50" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                            <p class="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400"> 0</p>    
+                            </div>
+                            <p  class="counter-value"  data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">+</p>
+    
+                            </div>
+                            <h3 class="counter_head mt-4" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                             Professional
+                            </h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6  mt-lg-0 mt-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="counter-value " data-count="200" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                            <p class="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400"> 0</p>    
+                            </div>
+                            <p  class="counter-value"  data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">+</p>
+    
+                        </div>
+                            <h3 class="counter_head mt-4" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                           Homes
+                            </h3>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mt-lg-0 mt-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                        <div class="counter-value " data-count="250" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                            <p class="text-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400"> 0</p>    
+                            </div>
+                            <p  class="counter-value"  data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">+</p>
+                            </div>
+                            <h3 class="counter_head mt-4" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                              Satisfied Customer
+                            </h3>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    </section>
+
+
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-lg-12 col-12 postition_relative_carousel">
+          <div class="valid_images_constructor">
+          </div>
+          <div class="carousel carousel-main" data-flickity='{"wrapAround": true }'>
+              <div class="carousel-cell carousel_parra1">
+                  <h2 class="construction_slide">Construction</h2>
+              </div>
+              <div class="carousel-cell carousel_parra1">
+                  <h2 class="construction_slide">Renovation</h2>
+              </div>
+              <div class="carousel-cell carousel_parra1">
+                  <h2 class="construction_slide">Interior</h2>
+              </div>
+            </div>
+
+            </div>
+
+            <div class="col-lg-12 col-12 mt-lg-5">
+            <div class="carousel carousel-nav"
+            data-flickity='{ "draggable": false, "cellAlign": "center", "fade": true, "skipWrapItems": true, "wrapAround": true, "asNavFor": ".carousel-main" }'>
+              <div class="carousel-cell carousel_parra">
+                <h3 class="construction_home_head">
+                  Construction
+                </h3>
+                <p class="construction_home_parra mt-lg-4 mt-2">
+                  Select a package that is tailored to your style, 
+budget, space and time
+                </p>
+              </div>
+              <div class="carousel-cell carousel_parra">
+                  <h3 class="construction_home_head">
+                      Renovation
+                    </h3>
+                    <p class="construction_home_parra mt-lg-4 mt-2">
+                      Select a package that is tailored to your style, 
+  budget, space and time
+                    </p>
+              </div>
+              <div class="carousel-cell carousel_parra">
+                  <h3 class="construction_home_head">
+                      Interior
+                    </h3>
+                    <p class="construction_home_parra mt-lg-4 mt-2">
+                      Select a package that is tailored to your style, 
+  budget, space and time
+                    </p>
+              </div>
+            </div>
+      </div>
+  </div>
+
+
+
+
+    <div class="container-fluid col-10 pt-5">
+        <div class="col-lg-12 col-md-12 col-12 mt-5">
+            <h2 class="constructor_home_head">
+                Constructor Estimator
+            </h2>
+        </div>
+
+        <div class="row mt-5 d-flex justify-content-center align-items-center">
+         <div class="col-lg-6 col-md-6 col-12">
+            <img src="./images/newimages/home/construct_home.png" class="img-fluid constructor_images">
+         </div>
+         <div class="col-lg-6 col-md-6 col-12">
+            <p class="constructor_parra mt-lg-0 mt-5">
+                Get to know the estimated cost and construction packages for 
+                your home with SISA Construction Estimator. Talk to our team for further customisations
+            </p>
+            <a href="./estimator.html">
+              <button class="construct_button mt-4 center-block d-block mx-auto mx-lg-0">
+                Calculate
+            </button>
+            </a>
+        
+         </div>
+        </div>
+    </div>
+
+    <div class="container-fluid col-10 mt-5">
+        <div class="row pt-5">
+            <div class="col-lg-12 col-md-12 col-12">
+                <h2 class="how_works text-center">
+                    How it Works?
+                </h2>
+                <p class="how_parra_works text-center">
+                    Our house construction steps are simple and easy to understand:
+                    Plan - Build - Track - Settle in.  
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Start Stepper HTML -->
+<div class="container mt-5">
+    <div class="accordion" id="accordionExample">
+        <div class="container-fluid col-lg-9 col-12">
+    <div class="steps">
+        <progress id="progress" value=0 max=100 ></progress>
+        <div class="step-item">
+            <button class="step-button text-center" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1
+            </button>
+            <div class="step-title">
+                Submit a Request
+            </div>
+        </div>
+        <div class="step-item">
+            <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2
+            </button>
+            <div class="step-title">
+           Meet our Expert
+            </div>
+        </div>
+        <div class="step-item">
+            <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3
+            </button>
+            <div class="step-title">
+              Register with Us
+            </div>
+        </div>
+        <div class="step-item">
+            <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                4
+            </button>
+            <div class="step-title">
+                Obtain Designs
+            </div>
+        </div>
+        <div class="step-item">
+            <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                5
+            </button>
+            <div class="step-title">
+              Monitor & Transact
+            </div>
+        </div>
+        <div class="step-item">
+            <button class="step-button text-center collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                6
+            </button>
+            <div class="step-title">
+                Settle In
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="card_less">
+        <div  id="headingOne">
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="card-body">
+    
+                <img src="./images/newimages/Final/raise_ a_request1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+    
+        
+                <div class="mt-5 card_work_pages">
+                    <h2 class="raise_request">
+                        01 Raise a Request
+                    </h2>
+                    <p class="raise_parra mt-4">
+                      Submit a request for interior design or give us a call at. 
+                      To better understand your needs, a member of our team will get in touch with you.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <div class="card_less">
+        <div  id="headingTwo">
+    
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="card-body">
+    
+            <img src="./images/newimages/Final/meet_our_expert1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+
+    
+            <div class="mt-5 card_work_pages">
+                <h2 class="raise_request">
+                    02 Meet our Specialist
+                </h2>
+                <p class="raise_parra mt-4">
+                  Our specialist will help you choose the best package for 
+                  building a house and revamping your interior and will address any questions you may have.
+                </p>
+            </div>
+
+        </div>
+        </div>
+    </div>
+    <div class="card_less">
+        <div  id="headingThree">
+    
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="card-body">
+    
+              <img src="./images/newimages/Final/Book_With_us1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+  
+      
+              <div class="mt-5 card_work_pages">
+                  <h2 class="raise_request">
+                      03 Register with Us
+                  </h2>
+                  <p class="raise_parra mt-4">
+                    All clear! To begin building a
+                     house, you must pay a booking fee equal to 5% of the expected project cost.
+                  </p>
+              </div>
+  
+          </div>
+        </div>
+    </div>
+    <div class="card_less">
+        <div  id="headingfour">
+    
+        </div>
+        <div id="collapsefour" class="collapse" aria-labelledby="headingfour"
+            data-bs-parent="#accordionExample">
+            <div class="card-body">
+    
+              <img src="./images/newimages/Final/receive_designs1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+  
+      
+              <div class="mt-5 card_work_pages">
+                  <h2 class="raise_request">
+                      04 Obtain designs
+                  </h2>
+                  <p class="raise_parra mt-4">
+                    Until you are entirely pleased, our architects will provide
+                     thorough drawings and blueprints for the construction and design of your home.
+                  </p>
+              </div>
+  
+          </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="card_less">
+        <div  id="headingfive">
+    
+        </div>
+        <div id="collapsefive" class="collapse" aria-labelledby="headingfive"
+            data-bs-parent="#accordionExample">
+            <div class="card-body">
+              <div class="card-body">
+    
+                <img src="./images/newimages/Final/Track & Transact1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+    
+        
+                <div class="mt-5 card_work_pages">
+                    <h2 class="raise_request">
+                        05 Monitor and transact
+                    </h2>
+                    <p class="raise_parra mt-4">
+                      To ensure complete confidence, Brick&Bolt offers an escrow mechanism in which you send funds for each stage of the project. 
+                      You can keep track of the project using our customer application.
+                    </p>
+                </div>
+    
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="card_less">
+        <div  id="headingsix">
+    
+        </div>
+        <div id="collapsesix" class="collapse" aria-labelledby="headingsix"
+            data-bs-parent="#accordionExample">
+            <div class="card-body">
+              <div class="card-body">
+    
+                <img src="./images/newimages/Final/Settle_In1.png" class="img-fluid card_image_work center-block d-block mx-auto">
+    
+        
+                <div class="mt-5 card_work_pages">
+                    <h2 class="raise_request">
+                        06 Settle in
+                    </h2>
+                    <p class="raise_parra mt-4">
+                      The final and most important stage. We make certain that you are comfortable in your newly constructed home.
+                       Our journey together does not come to an end here. We offer a 5-year warranty
+                    </p>
+                </div>
+    
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container-fluid col-10 mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <h2 class="our_projects">
+                    Our Projects
+                </h2>
+
+                <div class="multiple_item mt-5">
+                    <div >
+                     <div class="our_home_project mx-2 mx-lg-0">
+                        <h2 class="our_home_project_head">
+                          Residential
+                        </h2>
+                     </div>
+                    </div>
+
+
+                    <div>
+                        <div class="our_home_project1 mx-2 mx-lg-0">
+                            <h2 class="our_home_project_head">
+                              Residential Villa
+                            </h2>
+                         </div>
+                    </div>
+
+
+                    <div>
+                        <div class="our_home_project2 mx-2 mx-lg-0">
+                            <h2 class="our_home_project_head">
+                              Residential<br>
+                              Rental & Duplex
+                            </h2>
+                         </div>
+                    </div>
+
+                    <div>
+                        <div class="our_home_project3 mx-2 mx-lg-0">
+                            <h2 class="our_home_project_head">
+                             Commercial Office
+                            </h2>
+                         </div>
+                    </div>
+
+                    <div>
+                        <div class="our_home_project4 mx-2 mx-lg-0">
+                            <h2 class="our_home_project_head">
+                              Apartment Interiors
+                            </h2>
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid col-10 pt-5">
+        <div class="row">
+          <div class="col-lg-12 col-12">
+            <h2 class="compare_package_head text-center">Sisa Homes Packages</h2>
+
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <div>
+                    <p class="home_currentlyParra">
+                        Find the best home construction packages.*
+                    </p>
+
+                    <div class="d-flex justify-content-center align-items-center">
+                    <p class="currently_parra text-center mt-3">
+                        Currently showing for 
+                      </p>
+                      <select class="home_location mx-3">
+                        <option value="">Select a Location</option>
+                        <option value="bangalore">Bangalore</option>
+                        <option value="chennai">Chennai</option>
+                        <option value="Hubli-Dharvad">Hubli-Dharwad</option>
+                      </select>
+                      <!-- <div class="dropdown">
+                        <a class="btn  dropdown-toggle home_location" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Locations
+                        </a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="">Bangalore</a></li>
+                          <li><a class="dropdown-item" href="">Chennai</a></li>
+                          <li><a class="dropdown-item" href="">Hubli-Dharvad</a></li>
+                        </ul>
+                      </div> -->
+                      </div>
+                </div>
+          
+             
+            </div>
+           
+          </div>
+        </div>
+
+
+        <div class="row pt-5 slide_estimator_close">
+
+
+          <div class="col-lg-3 col-md-3 col-12 mt-5 mx-3">
+            <div class="accordion estimator_career" id="accordionExample">
+              <h2 class="estimator_button">Basic Package</h2>
+              <div class="accordion-item">
+       
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Structure
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Steel brands – Gopala / Meenakshi/ Equivalent   
+                      </li>
+                      <li class="career_list_accord mt-2"> 	Cement - Penna / Mahagold / Priya Equivalent.</li>
+                      <li class="career_list_accord mt-2">  Blocks Standard solid concrete blocks 6 inch 4 inch </li>
+                      <li class="career_list_accord mt-2"> Aggregates – 20mm & 40mm</li>
+                      <li class="career_list_accord mt-2">RCC Mix – As per the Structural engineer recommendation </li>
+                      <li class="career_list_accord mt-2">  	Clear Ceiling Height – 10’</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Flooring
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Living & Dining -Vitrified flooring up to Rs 110/ Sq.Ft    
+                      </li>
+                      <li class="career_list_accord mt-2">Puja Room - Vitrified flooring up to Rs 110/Sq.Ft with 1 step of vitrified finish.</li>
+                      <li class="career_list_accord mt-2">	Kitchen-Vitrified flooring up to Rs 110/ Sq.Ft & Dado wall tiles above kitchen slab up to Rs45/sq ft. </li>
+                      <li class="career_list_accord mt-2"> All rooms Vitrified flooring up to Rs 110/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Staircase - Granite flooring up to Rs 120/ Sq.Ft. </li>
+                      <li class="career_list_accord mt-2">Balcony-Anti skid ceramic tiles for the flooring up to Rs 90/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Car parking-Paver tiles up to Rs 80/ Sq.Ft.</li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Doors & Windows
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>MAIN & POOJA DOOR </b>- Teak wood up to Rs 2800/cft 
+                      </li>
+                      <li class="career_list_accord mt-2"><b>OTHER DOORS</b> - All other doors to have flush door with Paint finish and frames to have Red Sal wood up to Rs 1550/cft</li>
+                      <li class="career_list_accord mt-2"><b>WINDOW FRAMES & SHUTTER </b>  </li>
+                      <li class="career_list_accord mt-2"><b>Windows frame</b> - White UPVC .</li>
+                      <li class="career_list_accord mt-2"><b>Window shutters</b> - White UPVC and glass as per the pattern</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           Painting
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                         Interior -  Tractor emulsion painting - Asian 
+                      </li>
+                      <li class="career_list_accord mt-2">	Exterior - ACE Exterior emulsion painting -Asian </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+           Electrical
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            All conduits and wiring.
+                      </li>
+                      <li class="career_list_accord mt-2">Wires - Polycab / V-Guard </li>
+                      <li class="career_list_accord mt-2">Switches & Switchboard – Anchor / GM / Hi-Fi</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+           Bathroom
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>BATHROOM TILES</b> - Ceramic tiles for floor and wall up to 7ft height up to Rs 75/ Sq.Ft
+                      </li>
+                      <li class="career_list_accord mt-2"><b>BATHROOM FIXTURES</b> - Bathroom fixtures worth Rs. 18000 </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+           Miscellanous
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>	TANK- 1</b>  Overhead tank – Kaveri tank of 1000ltrs.
+                      </li>
+                      <li class="career_list_accord mt-2"><b>WATER PROOFING</b>  All terrace and all washrooms - Fosrok / Dr.Fixit chemical </li>
+                      <li class="career_list_accord mt-2"><b>SUMP</b>  Sump with capacity - 5,000 litres  </li>
+                      <li class="career_list_accord mt-2"><b>Railing</b>Basic Ms-Railing for Staircase and Balcony  </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <a href="./estimator.html#desc" class="link ">
+              <button class="package_filter_home center-block d-block mx-auto mt-5">
+                View Details
+              </button>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-12 mt-5 mx-3">
+            <div class="accordion estimator_career" id="accordionExample">
+              <h2 class="estimator_button">Standard Package</h2>
+                         <div class="accordion-item">
+       
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Structure
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Steel brands – Meenakshi /Kamadhenu/ Equivalent     
+                      </li>
+                      <li class="career_list_accord mt-2"> 	Cement - Birla/ Ramco / Equivalent.</li>
+                      <li class="career_list_accord mt-2"> Blocks Standard solid concrete blocks 6 inch 4 inch  </li>
+                      <li class="career_list_accord mt-2"> 	Aggregates – 20mm & 40mm</li>
+                      <li class="career_list_accord mt-2">RCC Mix – As per the Structural engineer recommendation  </li>
+                      <li class="career_list_accord mt-2">Clear Ceiling Height – 10’</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Flooring
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Living & Dining -Vitrified flooring up to Rs 135/ Sq.Ft.
+                      </li>
+                      <li class="career_list_accord mt-2">Puja Room - Vitrified flooring up to Rs 125/Sq.Ft with 1 step of .</li>
+                      <li class="career_list_accord mt-2">	Kitchen-Vitrified flooring up to Rs 135/ Sq.Ft & Dado wall tiles above kitchen slab up to Rs55/sq ft. </li>
+                      <li class="career_list_accord mt-2"> All rooms Vitrified flooring up to Rs 135/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Staircase - Granite flooring up to Rs 120/ Sq.Ft. </li>
+                      <li class="career_list_accord mt-2">Balcony-Anti skid ceramic tiles for the flooring up to Rs 105/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Car parking-Paver tiles up to Rs 85/ Sq.Ft.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Doors & Windows
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>MAIN & POOJA DOOR </b>- Teak wood up to Rs 3250/cft 
+                      </li>
+                      <li class="career_list_accord mt-2"><b>OTHER DOORS</b> - All other doors to have flush door with Paint finish and frames to have Red Sal wood up to Rs 1750/cft</li>
+                      <li class="career_list_accord mt-2"><b>WINDOW FRAMES & SHUTTER </b>  </li>
+                      <li class="career_list_accord mt-2"><b>Windows frame</b> - White UPVC / Red Sal Wood upto Rs 1750/cft.</li>
+                      <li class="career_list_accord mt-2"><b>Window shutters</b>  - White UPVC / Teak wood upto Rs 2800 /cft and glass as per the pattern</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           Painting
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Interior -  Premium emulsion painting - Asian
+                      </li>
+                      <li class="career_list_accord mt-2">Exterior - APEX Exterior emulsion painting - Asian</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+           Electrical
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            All conduits and wiring.
+                      </li>
+                      <li class="career_list_accord mt-2">Wires - Polycab / V-Guard </li>
+                      <li class="career_list_accord mt-2">Switches & Switchboard – Anchor / GM / Hi-Fi</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+           Bathroom
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>BATHROOM TILES</b> - Ceramic tiles for floor and wall up to 7ft height up to Rs 85/ Sq.Ft
+                      </li>
+                      <li class="career_list_accord mt-2"><b>BATHROOM FIXTURES</b> - Bathroom fixtures worth Rs. 23000 </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+           Miscellanous
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>	TANK- 1</b>  Overhead tank –3 layers of Kaveri tank of 1000 ltrs.
+                      </li>
+                      <li class="career_list_accord mt-2"><b>WATER PROOFING</b>  All terrace and all washrooms - Fosrok / Dr.Fixit chemical </li>
+                      <li class="career_list_accord mt-2"><b>SUMP</b> Sump with capacity – 7,000 litres   </li>
+                      <li class="career_list_accord mt-2"><b>Railing</b>SS-Railing  for Staircase and Balcony   </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <a href="./estimator.html#desc" class="link ">
+              <button class="package_filter_home center-block d-block mx-auto mt-5">
+                View Details
+              </button>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-12 mt-5 mx-3">
+            <div class="accordion estimator_career" id="accordionExample">
+              <h2 class="estimator_button">Deluxe Package</h2>
+              <div class="accordion-item">
+       
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Structure
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Steel brands – Meenakshi / Kamadhenu / Jindal / Equivalent    
+                      </li>
+                      <li class="career_list_accord mt-2"> 	Cement – ACC/Birla/ Ramco  / Ultratech / Equivalent.</li>
+                      <li class="career_list_accord mt-2"> Blocks Standard solid concrete blocks 6 inch 4 inch   </li>
+                      <li class="career_list_accord mt-2"> 	Aggregates – 20mm & 40mm</li>
+                      <li class="career_list_accord mt-2">RCC Mix – As per the Structural engineer recommendation  </li>
+                      <li class="career_list_accord mt-2">Clear Ceiling Height – 10’ 6” </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Flooring
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                           Living & Dining -Vitrified flooring up to Rs 165/ Sq.Ft
+                      </li>
+                      <li class="career_list_accord mt-2">Puja Room - Vitrified flooring up to Rs 165/Sq.Ft with 2 step of  .</li>
+                      <li class="career_list_accord mt-2">	Kitchen-Vitrified flooring up to Rs 165/ Sq.Ft & Dado wall tiles above kitchen slab up to Rs65/sq ft. </li>
+                      <li class="career_list_accord mt-2"> All rooms Vitrified flooring up to Rs 165/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Staircase - Granite flooring up to Rs 210/ Sq.Ft. </li>
+                      <li class="career_list_accord mt-2">Balcony-Anti skid ceramic tiles for the flooring up to Rs 115/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Car parking-Paver tiles up to Rs 100/ Sq.Ft.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Doors & Windows
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>MAIN & POOJA DOOR </b>- Teak wood up to Rs 3950/cft 
+                      </li>
+                      <li class="career_list_accord mt-2"><b>OTHER DOORS</b> - All other doors to have flush door with Paint finish and frames to have Red Sal wood up to Rs 1950/cft</li>
+                      <li class="career_list_accord mt-2"><b>WINDOW FRAMES & SHUTTER </b>  </li>
+                      <li class="career_list_accord mt-2"><b>Windows frame</b> - White UPVC / Red Sal Wood upto Rs 1950/cft.</li>
+                      <li class="career_list_accord mt-2"><b>Window shutters</b>  - White UPVC / Teak wood upto Rs 2800 /cft and glass as per the pattern</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           Painting
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Interior -  Royal emulsion painting - Asian
+                      </li>
+                      <li class="career_list_accord mt-2">Exterior - APEX Exterior emulsion painting - Asian</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+           Electrical
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            All conduits and wiring.
+                      </li>
+                      <li class="career_list_accord mt-2">Wires - Finolex / V-Guard / Polycab  </li>
+                      <li class="career_list_accord mt-2">Switches & Switchboard – Anchor / Legrand / GM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+           Bathroom
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>BATHROOM TILES</b> - Ceramic wall tiles up to Rs 95/sq ft for floor and wall tiles upto ceiling. 
+                      </li>
+                      <li class="career_list_accord mt-2"><b>BATHROOM FIXTURES</b> - Bathroom fixtures worth Rs. 28000 </li>
+                      <li class="career_list_accord mt-2"><b>Glass Partition</b> for Dry and Wet Area        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+           Miscellanous
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>	TANK- 1</b>  1 Overhead tanks – Sintex tanks of 1000 ltrs, MS stairs for the tank.
+                      </li>
+                      <li class="career_list_accord mt-2"><b>WATER PROOFING</b> All terrace and all washrooms - Fosrok / Dr.Fixit chemical </li>
+                      <li class="career_list_accord mt-2"><b>SUMP</b> Sump with capacity – 10,000 litres    </li>
+                      <li class="career_list_accord mt-2"><b>Railing</b>SS-Railing with Glass for Staircase and Balcony   </li>
+                      <li class="career_list_accord mt-2"><b>Terrace Flooring</b>Paver tiles for flooring up to Rs 90/sq ft   </li>
+                      <li class="career_list_accord mt-2"><b>CLADDING</b>Cera stone cladding for the elevation up to Rs 155/sq ft (Size: Upto 150 sq ft)   </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <a href="./estimator.html#desc" class="link ">
+              <button class="package_filter_home center-block d-block mx-auto mt-5">
+                View Details
+              </button>
+            </a>
+          </div>
+
+
+          <div class="col-lg-3 col-md-3 col-12 mt-5 mx-3">
+            <div class="accordion estimator_career" id="accordionExample">
+              <h2 class="estimator_button">Premium Package</h2>
+              <div class="accordion-item">
+       
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    Structure
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Steel brands –Meenakshi / Jindal / JSW / INDUS / Equivalent     
+                      </li>
+                      <li class="career_list_accord mt-2"> 	Cement –ACC/Birla/ Ramco  / Ultratech / Equivalent.</li>
+                      <li class="career_list_accord mt-2"> Blocks Standard solid concrete blocks 6 inch 4 inch   </li>
+                      <li class="career_list_accord mt-2"> 	Aggregates – 20mm & 40mm</li>
+                      <li class="career_list_accord mt-2">RCC Mix – As per the Structural engineer recommendation  </li>
+                      <li class="career_list_accord mt-2">Clear Ceiling Height – 10’ 6” </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Flooring
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                           Living & Dining -Vitrified flooring up to Rs 460/ Sq.Ft
+                      </li>
+                      <li class="career_list_accord mt-2">Puja Room - Vitrified flooring up to Rs 460/Sq.Ft with 2 step of  Italian Marble for the Puja area.</li>
+                      <li class="career_list_accord mt-2">	Kitchen-Vitrified flooring up to Rs 460/ Sq.Ft & Dado wall tiles above kitchen slab up to Rs75/sq ft. </li>
+                      <li class="career_list_accord mt-2"> All rooms Vitrified flooring up to Rs 195/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Staircase - Granite flooring up to Rs 260/ Sq.Ft. </li>
+                      <li class="career_list_accord mt-2">Balcony-Anti skid ceramic tiles for the flooring up to Rs 125/ Sq.Ft.</li>
+                      <li class="career_list_accord mt-2">Car parking-Paver tiles up to Rs 105/ Sq.Ft.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Doors & Windows
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>MAIN & POOJA DOOR </b>- Teak wood up to Rs 4400/cft with carving
+                      </li>
+                      <li class="career_list_accord mt-2"><b>OTHER DOORS</b> - All other doors to have flush door with Premium Laminate/ Veneer finish and frames to have teak wood up to Rs 2800/cft</li>
+                      <li class="career_list_accord mt-2"><b>WINDOW FRAMES & SHUTTER </b>  </li>
+                      <li class="career_list_accord mt-2"><b>Windows frame</b> - Teak wood up to Rs 3250/cft.</li>
+                      <li class="career_list_accord mt-2"><b>Window shutters</b>  - Teak wood Upto Rs 3250/cft & glass as per the pattern</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+           Painting
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            Interior -  Royal emulsion painting - Asian
+                      </li>
+                      <li class="career_list_accord mt-2">Exterior - APEX UTLIMA Exterior emulsion painting - Asian</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+           Electrical
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            All conduits and wiring.
+                      </li>
+                      <li class="career_list_accord mt-2">Wires - Finolex / V-Guard / Polycab  </li>
+                      <li class="career_list_accord mt-2">Switches & Switchboard – Anchor / Legrand / GM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+           Bathroom
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>BATHROOM TILES</b> - Ceramic wall tiles up to Rs 105/sq ft for floor and wall tiles upto ceiling. 
+                      </li>
+                      <li class="career_list_accord mt-2"><b>BATHROOM FIXTURES</b> - Bathroom fixtures worth Rs. 35000 & Rs. 40000 for Master Bedroom Toilet Fixtures. </li>
+                      <li class="career_list_accord mt-2"><b>Glass Partition</b> for Dry and Wet Area        </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+           Miscellanous
+                  </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="ml-lg-5 ml-3 mt-4">
+                      <li class="career_list_accord">
+                            <b>	TANK- 1</b>  2 Overhead tanks – Sintex tanks each of 1000ltrs, MS stairs for the tank.
+                      </li>
+                      <li class="career_list_accord mt-2"><b>WATER PROOFING</b>– All terrace and all washrooms - Fosrok / Dr.Fixit chemical </li>
+                      <li class="career_list_accord mt-2"><b>SUMP</b> Sump with capacity – 12,000 litres    </li>
+                      <li class="career_list_accord mt-2"><b>Railing</b>Railing of Teakwood or SS 304 railing with glass for Staircase & SS Railing with glass for Balcony    </li>
+                      <li class="career_list_accord mt-2"><b>Terrace Flooring</b>Paver tiles for flooring up to Rs 100/sq ft   </li>
+                      <li class="career_list_accord mt-2"><b>CLADDING</b>Cera stone cladding for the elevation up to Rs 185/sq ft (Size: Upto 200 sq ft)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <a href="./estimator.html#desc" class="link ">
+              <button class="package_filter_home center-block d-block mx-auto mt-5">
+                View Details
+              </button>
+            </a>
+
+
+          </div>
+        </div>
+
+      </div>
+    
+
+      <button class="scroll-top" id="scroll_top">
+        <i class="bi bi-arrow-up-short scroll_icons"></i>
+      </button>
+
+      <footer>
+        <div class="container-fluid col-10">
+            <div class="row pb-5">
+                <div class="col-lg-3 col-md-12 col-12" >
+                    <img src="./images/Sisahomeslogo.png" class="img-fluid footer_logo center-block d-block mx-auto mx-lg-0 mt-lg-0 mt-2 mb-lg-0 mb-4">
+                </div>
+                <div class="col-lg-9 col-md-12 col-12 pt-4">
+                  <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row flex-md-row">
+                  <a href="./index.html" class="link" >
+                    <p class="footer_anchor">Home</p>
+                  </a>
+                  <a href="./ourproject.html" class="link " >
+                    <p class="footer_anchor mt-3 mt-lg-0 mt-md-0">Projects</p>
+                  </a>
+                    <a href="./about.html" class="link">
+                        <p class="footer_anchor mt-3 mt-lg-0 mt-md-0" >About Us</p>
+                      </a>
+                      <a href="./estimator.html" class="link ">
+                        <p class="footer_anchor mt-3 mt-lg-0 mt-md-0" >Construction Estimator</p>
+                      </a>
+                    <a href="./construction.html" class="link">
+                        <p class="footer_anchor mt-3 mt-lg-0 mt-md-0" >Our Services</p>
+                      </a>
+                      <a href="./contact.html" class="link ">
+                        <p class="footer_anchor mt-3 mt-lg-0 mt-md-0" >Contacts</p>
+                      </a>
+                </div>
+                </div>
+                </div>
+
+                <div class="row footer_border_top">
+                  <div class="col-lg-4 col-md-6 col-12">
+
+                      <a href="tel:8095288450" class="link">
+                        <p class="footer_address_number" >
+                            +91 80952 88450
+                        </p>
+                        </a>
+                        <p class="footer_address_number1 pb-4 pb-lg-0" >
+                          53, 54, ANJANADIRI SRIHARSHA, opp. to OZONE APARTMENTS,
+                           1ST SECTION, PWD Quarters, HSR Layout, Bangalore, Karnataka 560103
+                        </p>
+                
+      
+                </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+
+                    <a href="tel:8095288450" class="link">
+                        <p class="footer_address_number" >
+                            +91 80952 88450
+                        </p>
+                        </a>
+                        <p class="footer_address_number1 pb-4 pb-lg-0" >
+                          G - 199 Phase - 3, Ground Floor, 
+                          Spencer Plaza, 768/769, 
+                          Anna Salai, Chennai - 600002
+                        </p>
+
+                </div>
+                  <div class="col-lg-4 col-md-12 col-12">
+        
+                    <a href="tel:8095288450" class="link">
+                        <p class="footer_address_number text-lg-start text-center" >
+                            +91 80952 88450
+                        </p>
+                        </a>
+                        <p class="footer_address_number1 add_footer_address pb-4 pb-lg-0 text-lg-start text-center" >
+                          SF 114, Second Floor at GALAXY MALL,
+                          J C Nagar, Hubli, 
+                          Karnataka - 580020
+                        </p>
+                </div>
+                </div>
+           
+            </div>
+        <div class=" footer_border_top mb-4 mt-4">
+           <div class="container-fluid col-lg-11 col-12">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+               <p class="sisaPara text-center text-lg-left">
+                © 2023   SISA HOMES PVT. LTD.    All Rights Reserved
+               </p>
+                </div>
+                    <div class="col-lg-6 col-md-12 col-12 center-block d-block mx-auto">
+                  <p class="d-flex justify-content-center align-items-center mt-lg-0 mt-2 mb-lg-0 mb-2 text-center" >
+                    
+                       <span class="sisaPara1 mx-lg-2 mx-2 text-center text-lg-left">
+                        Privacy Policy
+                       </span>
+                       <span class="sisaPara1 mx-lg-2 mx-2 text-center text-lg-left">
+                      Terms of Use
+                       </span>
+                       <span class="sisaPara2 mx-lg-2 mx-2 text-center text-lg-left">
+                    Policies and Legislation
+                       </span>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 mt-4 mt-lg-0">
+                    <div class="mx-3 footer_end_icon center-block d-block mx-auto">
+
+                      <p class="text-center">
+
+
+                        <a href="https://www.facebook.com/sisahomes/" class="link">
+                            <img src="./images/icons/fb.png" class="img-fluid icon_social_footer mx-2">
+                        </a>
+                    
+                        <a href="https://www.instagram.com/sisa_homes/" class="link">
+                            <img src="./images/icons/insta.png" class="img-fluid icon_social_footer mx-2">
+                        </a>
+                    
+                    
+                        <a href="https://pin.it/6F1SYJo" class="link">
+                            <img src="./images/icons/pinterest.png" class="img-fluid icon_social_footer mx-2">
+                        </a>
+                      
+                        <a href="" class="link">
+                            <img src="./images/icons/yout.png" class="img-fluid icon_social_footer mx-2">
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/company/sisa-homes/">
+                            <img src="./images/icons/link.png" class="img-fluid icon_social_footer mx-2">
+                        </a>
+                                                
+                      </p>
+                </div>
+                </div>
+            </div>
+           </div>
+            </div>
+            
+
+      </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/slickOpen.js"></script>
+</body>
+</html>
+    
+    

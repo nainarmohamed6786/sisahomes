@@ -1,0 +1,2887 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Lato:wght@300;400;700&family=Poppins:wght@300;500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* =================================================================navbar =====================================================*/
+
+.navbar_logo{
+    width: 8vw;
+}
+.navbar{
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.navbar_location{
+    background: #263183;
+    font-size: 1vw;
+    color: white;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+.navbar_location:hover{
+    background: #263183;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-menu {
+    width: 10vw !important;
+    min-width: 10vw !important; 
+}
+.dropdown-item{
+    font-size: 1vw;
+}
+.nav-link{
+    height: auto;
+    font-size : 60px;
+    color     : #263183 !important;
+    font-size: 1vw;
+    height: auto;
+
+}
+.nav-link:after{
+       display      : block;
+    content      : '';
+    border-bottom: solid 3px #263183;
+    transform    : scaleX(0);
+    transition   : transform 300ms ease-in-out;
+}
+
+
+.nav-link:hover:after{
+        transform: scaleX(1);
+     transform-origin: 0 50%;
+}
+.active{
+  height: auto;
+    font-size : 1vw;
+    color     : #263183;
+
+}
+.active:after{
+    content      : '';
+    border-bottom: solid 3px #263183;
+    transform    : scaleX(0.2);
+    transition   : transform 300ms ease-in-out;
+}
+.about_head{
+  height: auto;
+    font-size : 1vw;
+    color     : #263183;
+}
+.about_head:after{
+  display      : block;
+    content      : '';
+    border-bottom: solid 3px #fff;
+    transform    : scaleX(0.03);
+    transition   : transform 300ms ease-in-out;
+}
+.home_navbar_location{
+    background: #263183;
+    color: white;
+    font-size: 0.8vw;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.dropdown_navbar {
+    float: left;
+    overflow: hidden;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown_navbar .dropbtn {
+    font-size: 1vw;
+    color: #263183;    
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #263183;
+    text-align: center;
+
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1vw;
+}
+
+.bi-chevron-up{
+display: none;
+}
+
+.dropdown_navbar:hover .bi-chevron-up{
+    display:contents;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown_navbar:hover .bi-chevron-down{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown_navbar:hover .dropdown-content {
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.scroll-top{
+    background: #263183;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    position: fixed;
+    top: 85%;
+    left: 95%;
+    display: none;
+}
+.scroll_icons{
+    font-size: 2vw;
+}
+/* ================================================================footer========================================================= */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+footer{
+    margin-top: 14vh;
+}
+.footer_anchor{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.14vw;
+    color: #000000;
+    margin: 0 1vw;
+}
+.footer_anchor1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.14vw;
+    color: #000000;
+    margin-top: 3vh;
+}
+.footer_border_top{
+    padding-top: 2vw;
+    border-top: 2px solid silver;
+}
+.footer_logo{
+    width: 12vw;
+}
+.footer_address_number{
+font-style: normal;
+font-weight: 400;
+font-size: 1.14vw;
+color: #000000;
+}
+.icon_social_footer{
+    width: 2vw;
+}
+.border_right_footer{
+    border-right: 2px solid rgba(0, 0, 0, 0.301);
+}
+.footer_address_number1{
+font-style: normal;
+font-weight: 400;
+font-size: 1vw;
+color: #000000;
+}
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+}
+.sisaPara{
+font-style: normal;
+font-weight: 400;
+font-size: 0.8vw;
+color: #000000;
+}
+.sisaPara1{
+font-style: normal;
+font-weight: 400;
+font-size: 1vw;
+color: #000000;
+padding-right: 1vw;
+border-right: 2px solid #000;
+}
+.sisaPara2{
+font-style: normal;
+font-weight: 400;
+font-size: 1vw;
+color: #000000;
+padding-right: 1vw;
+
+}
+
+.main2{
+    margin-top: 5%;
+}
+.main3{
+    margin-top: 8%;
+}
+
+
+
+
+/* ============================================================================Contact ==========================================*/
+
+.contact_main{
+    background: url(../images/ContactBGimage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_heading{
+font-style: normal;
+font-weight: 600;
+font-size: 3.166vw;
+color: #FFFFFF;
+}
+.contact_para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #FFFFFF;
+    margin-top: 3vh;
+}
+.contact_phone_Number{
+font-style: normal;
+font-weight: 400;
+font-size: 1.2vw;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+.lonk_para{
+font-style: normal;
+font-weight: 200;
+font-size: 1vw;
+color: #FFFFFF;
+}
+.contact_address_para{
+font-style: normal;
+font-weight: 300;
+font-size: 1vw;
+color: #FFFFFF;
+width: 30vw;
+}
+.contact_map_button{
+    color: white;
+    border-radius: 5px;
+    background-color: #263183;
+    outline: none;
+    font-size: 1.14vw;
+    width: 12.81vw;
+    padding: 10px;
+    border: none;
+}
+.form_contact{
+    background: #FFFFFF;
+    opacity: 0.95;
+    width: 40vw;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.form_contact_head{
+
+font-style: normal;
+font-weight: 400;
+font-size: 3.125vw;
+color: #000000;
+margin: 0 auto;
+}
+.invalid-feedback{
+    font-size: 1vw;
+}
+.input_contact{
+    border: none;
+    outline:none;
+    border-bottom:2px solid silver !important;
+    width: 30.89vw;
+    font-size: 1.14vw;
+
+    font-style: normal;
+    padding: 15px;
+    color: black !important;
+}
+.contact_vibe{
+    margin-top: 4vh;
+    margin: 0 auto;
+}
+.contact_vibe1{
+    margin: 0 auto;
+}
+.btn_submit_contact{
+    width: 13vw;
+    padding: 15px;
+    background-color: #263183;
+    color: #263183;
+    font-size: 1.14vw;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 8vh;
+}
+.unique_perspective{
+    background: url(../images/ull.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20.65vw;
+    margin-top: 8vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.basic_items .slick-dots{
+    visibility: hidden;
+}
+.unique_head{
+
+font-style: normal;
+font-weight: 600;
+font-size: 1.66vw;
+color: #FFFFFF;
+}
+.unique_para{
+font-style: normal;
+font-weight: 300;
+font-size: 1.14vw;
+color: #FFFFFF;
+width: 70%;
+margin: 0 auto;
+text-align: center;
+}
+.btn_download{
+    background: #009FE3;
+    border: none;
+    outline: none;
+    font-size: 1.3vw;
+    color: white;
+    width: 10vw;
+    border: 2px solid white;
+    padding: 10px;
+    width: 13vw;
+    background:transparent;
+    border-radius: 53px;
+
+}
+
+#form_matter{
+    margin: 0 auto;
+}
+
+.contact_vibe, .contact_vibe1{
+    width: 30.89vw;
+}
+
+
+/* ======================================================career =======================================*/
+
+.careers_img{
+    height: 32vw;
+    width:42.5vw ;
+}
+.join_head{
+    font-size: 3.125vw;
+    color: #263183 ;
+    text-align: center;
+}
+
+.join_parra{
+    font-size: 1vw;
+    margin-top: 3vw;
+    text-align: justify;
+    color: black;
+}
+.careers.accordion-button:not(.collapsed){
+    background: transparent !important;
+    border: 2px solid white;
+}
+.careers.accordion-item {
+border: none;
+}
+.careers.accordion{
+    width: 42vw;
+    border: 2px solid #263183;
+    padding: 20px;
+    border-radius: 20px;
+}
+.careers.accordion-button{
+    font-size: 1.1vw;
+    color: #263183;
+}
+.headaer_career_parra{
+    font-size: 1.3vw;
+  }
+  .career_list_accord{
+    font-size: 1vw;
+  }
+  .btn_careeers{
+    outline: none;
+    border: none;
+    font-size: 1vw;
+    width: 13.81vw;
+    background-color: #263183;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+font-style: normal;
+font-weight: 400;
+  }
+  .closedd_career{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 5vw;
+    font-weight: 300;
+  }
+  .modal-title{
+    visibility: hidden;
+  }
+  .modal-header{
+    border:none
+  }
+  .form_contact_career{
+    background: #FFFFFF;
+    opacity: 0.95;
+    width: 100%;
+    min-height: 90.28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* =============================================Service Construction ==================================*/
+
+.construction_head_images{
+background: url(../images/newimages/construction.png);
+box-shadow: inset 0px 0px 0px 2000px #26318362;
+height: 19vw;
+display: flex;
+justify-content:center ;
+align-items: center;
+}
+.heading_para{
+    color: #fff;
+    font-size: 3.5vw;
+}
+.services{
+    color: #263183;
+    font-size: 2vw;
+}
+.plan_choose{
+    color: #263183;
+    font-size: 1.5vw;
+}
+.construction_parra{
+    font-size: 1.1vw;
+}
+.add_gst{
+    color: #263183;
+    font-size: 1.4vw;
+    font-weight: 550;
+}
+.background_package{
+    background: url(../images/ourservices/construction/Basic.jpg);
+    border-radius: 5px;
+    position: relative;
+}
+
+.background_package1{
+    background: url(../images/ourservices/construction/Deluxe.jpg);
+    border-radius: 5px;
+    position: relative;
+}
+
+.background_package2{
+    background: url(../images/ourservices/construction/Premium.jpg);
+    border-radius: 5px;
+    position: relative;
+}
+
+.background_package3{
+    background: url(../images/ourservices/construction/Standard.jpg);
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+.basics_services_head{
+color: white;
+font-size: 2.08vw;
+font-style: normal;
+font-weight: 600;
+color: #FFFFFF;
+text-align: center;
+}
+
+.typo_services{
+color: white;
+margin: 0 auto;
+list-style-type: none !important;
+font-size: 1vw;
+}
+.budget_absolute{
+margin-top: 10%;
+}
+.list-group{
+    list-style:decimal-leading-zero !important;
+}
+.Price_para{
+    color: white;
+    font-size: 1vw;
+}
+.elevent_space_items{
+    margin-top: 3% !important;
+}
+.price_head{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+.budget_button{
+    border: none;
+    outline: none;
+    background: #009FE3;
+    width: 10vw;
+    padding: 10px;
+    color: white !important;
+    font-size: 1vw;
+    margin-top: 2vw;
+    border-radius: 5px;
+}
+
+
+.esimate_location{
+    font-size: 1vw;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background: #263183;
+    background-position: center;
+    border: none;
+    outline: none;
+ }
+
+/* ===============================================Services Interior ===================================*/
+
+.interior_head{
+    font-size: 3.125vw;
+    color: #263183;
+    text-align: center;
+}
+.interior_para{
+    color: #000;
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.btn_architect{
+    width: 16vw;
+    background: #263183;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 1vw;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+/* ====================================================Services Renovation =============================*/
+.renovation_head{
+    font-size: 3.125vw;
+    color: #263183;
+}
+
+.renovation_subhead{
+    color: #263183;
+    border-bottom: 2px solid #263183;
+    width: 10vw;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.6vw;
+}
+.renovation_subhead1{
+    color: #263183;
+    border-bottom: 2px solid #263183;
+    width: 14vw;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.6vw;
+}
+.renovation_subhead2{
+    color: #263183;
+    border-bottom: 2px solid #263183;
+    width: 14vw;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.6vw;
+}
+.renovation_para{
+    font-size: 1vw;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* ======================================================About Page ====================================*/
+
+.about_head{
+    color: white;
+    font-size: 2vw;
+}
+.about_parra{
+    font-size: 1.5vw;
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.about_images{
+    width: 39.79vw;
+    height: 36.77vw; 
+}
+.about_parras{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.about_subhead{
+    font-size: 1.5vw;
+    color: #263183;
+    padding:10px;
+    border-bottom: 2px solid #263183;
+    width: 14vw;
+    margin: 0 auto;
+}
+.about_subhead_quality{
+    font-size: 1.5vw;
+    color: #263183;
+    padding:10px;
+    border-bottom: 2px solid #263183;
+    width: 11vw;
+    margin: 0 auto;
+}
+.about_subhead_payment{
+    font-size: 1.5vw;
+    color: #263183;
+    padding:10px;
+    border-bottom: 2px solid #263183;
+    width: 15vw;
+    margin: 0 auto;
+}
+.about_subhead_expertise{
+    font-size: 1.5vw;
+    color: #263183;
+    padding:10px;
+    border-bottom: 2px solid #263183;
+    width: 18vw;
+    margin: 0 auto;
+}
+.about_subhead_complete{
+    font-size: 1.5vw;
+    color: #263183;
+    padding:10px;
+    border-bottom: 2px solid #263183;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.containersss {
+  position: relative;
+  width: 25.26vw !important;
+  transition: .9s ease;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 14.32vw;
+  height: 20.15vw;
+  object-fit: cover;
+  -webkit-transition: .9s ease;
+  transition: .4s ease;
+  transform: scale(1);
+  filter: grayscale(100%);
+}
+.containersss:hover .image{
+    width: 20.26vw !important;
+    filter: grayscale(0%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 49, 131, 0.59);
+  overflow: hidden;
+  width: 20.26vw !important;
+  height: 100%;
+  -webkit-transition: .9s ease;
+  transition: .9s ease;
+  opacity: 0;
+}
+
+.containersss:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.current{
+    color: red !important;
+}
+.ourTeams_head{
+font-style: normal;
+font-weight: 400;
+font-size: 3.38vw;
+color: #000000;
+}
+
+.tab-link{
+font-style: normal;
+font-weight: 400;
+font-size: 1.14vw;
+color: #000000;
+}
+
+
+
+/* ============================================Construction Estimator ==========================*/
+.estimate_client{
+    margin-top:5%;
+    width: 60%;
+    background:rgba(192, 192, 192, 0.199) ;
+    border-radius: 5px;
+}
+.estimate_head{
+font-style: normal;
+font-weight: 400;
+font-size: 1.87vw;
+padding: 10px;
+text-align: center;
+color: #000000;
+background: #263183;
+color: #fff;
+border-radius: 5px;
+}
+.estimate_para{
+font-style: normal;
+font-weight: 400;
+font-size: 1.04vw;
+color: #000000;
+width: 70%;
+text-align: center;
+margin: 0 auto;
+}
+.form_estimator{
+    border: none !important;
+    outline: none;
+    width: 18.85vw;
+    padding: 10px;
+    color: #263183;
+    background-color: #2631833b;
+    font-size: 1.14vw;
+    border-radius: 5px;
+}
+.label_estimator_parra{
+font-style: normal;
+font-weight: 400;
+font-size: 1.14vw;
+color: #000000;
+
+}
+.btn_estimator{
+    border: 1px solid #263183;
+    width: 12.18vw; 
+    background: #263183;
+font-style: normal;
+font-weight: 400;
+font-size: 1.14vw;
+color: #fff;
+padding: 15px;
+border-radius: 10px;
+}
+.estimate_feedback{
+    width: 40vw;
+    font-size: 1vw;
+}
+
+.disclaimer_para_estimator{
+font-style: normal;
+font-weight: 400;
+font-size: 1vw;
+width: 60%;
+margin: 0 auto;
+color: #000000;
+text-align: justify;
+}
+.Your_Cost_Estimate{
+font-style: normal;
+font-weight: 400;
+font-size: 3.38vw;
+color: #000000;
+}
+.card_estimator{
+    background: url(../images/estimator1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.86);
+}
+.card_estimator1{
+    background: url(../images/estimator2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.86);
+}
+.card_estimator2{
+    background: url(../images/estimator3.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.86);
+}
+.card_estimator3{
+    background: url(../images/estimator4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.86);
+}
+.header_estimator_head{
+    font-size: 2vw;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.estimate_floor_calculate{
+    color: white;
+    font-size: 1.1vw;
+}
+.size_para_span{
+    font-size: 0.9vw;
+}
+.total_estimate_calculate{
+    border-top: 1px solid white;
+}
+.estimator_prices{
+    font-size: 3vw !important;
+}
+.small_estimator{
+    font-size: 1vw;
+    color: white;
+}
+.selected_part{
+   outline: none;
+   border: none;
+   border-bottom: 1px solid black; 
+   font-size: 1.3vw;
+   padding: 10px;
+   width: 10vw;
+   margin-top:5%;
+}
+.compare_heads{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.38vw;
+    line-height: 65px;
+    margin-top:5%;
+    color: #000000; 
+}
+.package_select_compare{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 20vw;
+    text-align: start;
+    font-size: 1.3vw;
+    padding: 10px;
+    margin: 0 auto !important;
+}
+.card_estimator_choice{
+    border-bottom: 1px solid black !important;
+    /* width: 20vw; */
+    padding: 10px;
+    border-radius: 0px;
+}
+#dropdownPackage1{
+    background:#DCF6FF ;
+    /* width: 23vw; */
+    padding: 20px;margin: 0 auto;
+}
+#dropdownPackage2{
+    background: rgba(227, 230, 255, 0.41);
+    /* width: 23vw; */
+    padding: 20px;
+}
+.list-group-item, .list-group_item{
+    background-color: transparent;
+    padding:0em 0em !important;
+    margin-top:10%;
+}
+.subheading_calculate{
+    font-size: 1.1vw;
+}
+.list-group_item{
+    border-bottom: 1px solid black;
+}
+.list-group-flush>.list-group-item{
+    font-size: 0.8vw;
+}
+.form_register1{
+    width: 50%;
+    margin: 0 auto;
+}
+.compare_package_head{
+    font-size: 1.87vw;
+    color: #263183;
+    font-size: 700;
+}
+.currently_parra{
+font-size: 1.1vw;
+color: #263183;
+margin: 0px;
+}
+.estimator_button{
+    background:#263183;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size:1.1vw ;
+}
+.estimator_career{
+    background-color: silver !important;
+}
+.accordion-item {
+border: none;
+}
+.accordion-button{
+    font-size: 1.1vw;
+    color: #263183;
+}
+.accordion-button{
+    font-size: 1vw;
+}
+
+
+/* ===============================================Home ===============================================*/
+
+.background_images{
+    background: url(../images/newimages/home/ravi_dutt.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.26);
+}
+
+.background_images1{
+    background: url(../images/ourProject/Project4Dharma/2.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.26);
+}
+
+.background_images2{
+    background: url(../images/ourProject/abhilash/2.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.26);
+}
+
+.background_images3{
+    background: url(../images/ourProject/Mr.Bhanu/02.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.26);
+}
+
+.background_images4{
+    background: url(../images/ourProject/Project10Trueweight/10.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 0px 2000px rgba(0, 0, 0, 0.26);
+}
+.home_head{
+    font-size: 2.8vw;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+.home_banner_button{
+    background: #009FE3;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 18.28vw;
+    font-size: 1.30vw;
+    border-radius: 5px;
+}
+.about_home_head{
+  font-size: 1.87vw;
+  color: #263183;
+}
+.about_home_parra{
+    font-size: 1vw;
+    color: #000;
+    text-align: justify;
+}
+.about_home_button{
+    width: 16.14vw;
+    padding: 15px;
+    background: #263183;
+    color: white;
+    font-size: 1vw;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}
+.counter_format{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#counter{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+.counter-value{
+    color: #263183;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.counter_head{
+    color: #263183;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+
+.constructor_home_head{
+    text-align: center;
+    color: #263183;
+    font-size:1.3vw;
+    font-weight: 600;
+}
+.constructor_images{
+   width: 43.02vw; 
+   height: 24vw;
+}
+.constructor_parra{
+    font-size: 1vw;
+    color: black;
+}
+.construct_button{
+    width: 16vw;
+    padding: 15px;
+    background: #263183;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.how_works{
+    color: #263183;
+    font-size:1.66vw ;
+}
+.how_parra_works{
+    font-size: 1vw;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+/* =========================================Home Stepper =======================================*/
+
+
+/* CSS */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.step-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #b1b1b1;
+    transition: .4s;
+}
+
+.step-button[aria-expanded="true"] {
+    width: 30px;
+    height: 30px;
+    background-color:#263183;
+    color: #fff;
+}
+
+.done {
+    background-color:#263183;
+    color: #fff;
+}
+
+.step-item {
+    z-index: 10;
+    margin-left: -5%;
+    text-align: center;
+}
+
+#progress {
+  -webkit-appearance:none;
+    position: absolute;
+    width: 95%;
+    z-index: 5;
+    height: 1px;
+    border: 1px dashed #263183;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    background-color: transparent;
+}
+
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+    background-color: transparent;
+    border: none;
+
+}
+
+#progress::-webkit-progress-bar {
+    background-color: #b1b1b1;
+}
+
+.card_less{
+    border: none !important;
+}
+.step-title{
+    font-size: 0.8vw;
+    color: black;
+}
+
+.card_work_pages{
+    width: 57vw;
+    background: #263183;
+    padding: 20px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 5px;
+
+}
+.raise_request{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.raise_parra{
+    font: 0.9vw;
+}
+
+
+.our_projects{
+    font-size: 1.5vw;
+    color: #263183;
+    text-align: center;
+}
+.our_home_project{
+    background: url(../images/newimages/home/ourProject.png);
+    box-shadow: inset 0px 0px 0px 2000px #2631835b;
+    width:26.4vw;
+    height:20vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.our_home_project1{
+    background: url(../images/newimages/home/ourProject1.png);
+    box-shadow: inset 0px 0px 0px 2000px #2631835b;
+    width:26.4vw;
+    height:20vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.our_home_project2{
+    background: url(../images/newimages/home/ourProjects2.png);
+    box-shadow: inset 0px 0px 0px 2000px #2631835b;
+    width:26.4vw;
+    height:20vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.our_home_project3{
+    background: url(../images/newimages/projects/commercialoffice.png);
+    box-shadow: inset 0px 0px 0px 2000px #2631835b;
+    width:26.4vw;
+    height:20vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.our_home_project4{
+    background: url(../images/newimages/projects/residential/Frame34.png);
+    box-shadow: inset 0px 0px 0px 2000px #2631835b;
+    width:26.4vw;
+    height:20vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.our_home_project_head{
+    color: white;
+    font-size: 2vw;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.slick_open_right{
+    position: absolute;
+    top: 50%;
+    right: -2.8%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+        cursor: pointer;
+        width:4vw;
+        z-index: 99;
+        color: #263183;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: white;
+        border: 2px solid #263183;
+
+ }
+ .slick_open_left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+        cursor: pointer;
+        width:4vw;
+        z-index: 99;
+        color: #263183;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: white;
+        border: 2px solid #263183;
+ }
+ .home_currentlyParra{
+    color: black;
+    font-size: 1vw;
+ }
+ .home_location{
+    font-size: 1vw;
+    color: #263183;
+    background: none;
+    background-position: center;
+    border: none;
+    outline: none;
+ }
+
+   /* overlay screen */
+
+.overlayss {
+    position: absolute;
+    width: 100% ;
+    height: 100vh;
+    background:white;
+    top: 0% ;
+    z-index: 99999 !important;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlayss h1 {
+    font-size: 100px;
+    letter-spacing: 20px;
+  }
+  
+  .overlayss span {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .logo1{
+    width: 6vw;
+ }
+ .career_list_accord{
+    font-size: 0.8vw;
+  }
+  .package_filter_home{
+    background: #263183;
+    width: 8vw;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+  /* =======================================================Projects ===================================*/
+.ourProjects_heads{
+    font-size: 3.125vw;
+    color: #263183;
+    text-align: center;
+}
+.Residential_head{
+    font-size: 1.66vw;
+    text-align: center;
+    color: #263183;
+}
+.residential_parra{
+    font-size: 1.1vw;
+ text-transform: uppercase;
+ text-decoration: underline;
+ color: #263183;
+ text-align: center;
+}
+.resi_sub_parra{
+    font-size: 1vw;
+    text-align: center;
+    color: #263183;
+}
+.projects_buttons{
+    width: 12.79vw;
+    padding: 10px;
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    background: #263183;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidebar_head{
+    background-color: #263183;
+    width: 5vw;
+    min-height: 40vh;
+    position: fixed;
+    top: 60%;
+    transition: all .5s ease;
+    z-index: 99;
+}
+.sidebar_head:hover {
+    background-color: #263183;
+    width: 20vw;
+    transition: all .5s ease;
+}
+.sidebar_head:hover .sidebar_flow {
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+    align-items:center ;
+    min-height: 40vh;
+}
+.sidebar_flow{
+  
+    display: none;
+}
+.bi-arrow-right-short{
+    position: absolute;
+    right: 10%;
+    color: white;
+    font-size: 2vw;
+}
+.bi-arrow-left-short{
+    position: absolute;
+    right: 10%;
+    color: white;
+    font-size: 2vw;
+    display: none;
+}
+.sidebar_head:hover .bi-arrow-left-short {
+  display: block;
+  white-space: nowrap;
+}
+.sidebar_head:hover .bi-arrow-right-short {
+  display: none;
+  white-space: nowrap;
+}
+.sidebar_projects{
+    font-size: 1vw;
+    color: white;
+}
+
+/* external css: flickity.css */
+
+.carousel {
+    margin-bottom: 40px;
+  }
+  .flickity-page-dots {
+  display: none;
+  }
+  .carousel_parra1 {
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  .carousel_parra{
+      width: 100% !important;
+      text-align: center;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+  .carousel-nav .carousel-cell {
+  opacity:0;
+  }
+  
+  
+  .carousel-nav .carousel-cell.is-nav-selected {
+      opacity:1
+  }
+  
+  .is-selected{
+      opacity: 1;
+  }
+  .flickity-button {
+    display: none;
+  }
+  
+  .construction_slide{
+      font-size: 3.125vw;
+      color: white;
+      -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #263183;
+  }
+  .is-selected .construction_slide{
+      color: #263183;
+  }
+  .construction_home_head{
+      font-size: 1.5vw;
+      color: #263183;
+  }
+  .valid_images_constructor{
+      background: url(../images/newimages/home/constructor_matter.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 20vw;
+      width: 20vw;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      z-index: -1;
+      left: 50%;
+      position: absolute;
+  }
+  .postition_relative_carousel{
+      position: relative;
+  }
+  .carousel-main{
+      margin-top: 10vw;
+  }
+  .construction_home_parra{
+      font-size: 1vw;
+      width: 20%;
+      margin: 0 auto;
+  }
+  .card_image_work{
+    width: 20vw;
+    height: 20vw;
+  }
+.mobile_container{
+    display: none;
+}
+.main{
+    overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile_container{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+     /* mobile Navbar */
+
+
+   .mobile_container{
+    display: block;
+    margin-bottom: 15vh;
+}
+
+.mobile_container .header_mobile {
+	position: fixed !important;
+	display: block;
+	top: 0;
+	left: 0;
+    overflow-x: hidden !important;
+    z-index: 999;
+}
+.content {
+	padding: 40px 5% 20px;
+	text-align: justify;
+	max-height: 100%;
+	color: #333;
+	overflow-y: scroll;
+}
+.content img {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: 40px auto 30px;
+}
+
+/* End container/placeholder */
+
+/* Menu header_mobile */
+.header_mobile {
+	background: #fff;
+	overflow: hidden !important;
+	height: 15vh;
+	width: 100%;
+	z-index: 1;
+	position: fixed !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	transition: all 0.4s ease-out, background 1s ease-out;
+}
+.header_mobile.menu-open {
+	height: 100%;
+	background: #26318385;
+	transition: all 0.45s ease-out, background 0.8s ease-out;
+}
+
+/* Menu List items */
+.mobile-menu {
+	clear: both;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+}
+.header_mobile ul.menu {
+	position: relative;
+    margin-bottom: 20vw;
+	padding: 0px 40px 0;
+	list-style: none;
+   
+
+}
+
+
+
+.header_mobile ul.menu li.menu-item a {
+	display: block;
+	position: relative;
+	color: #fff;
+    text-align: right;
+	text-decoration: none;
+	font-size: 4vw;
+	line-height: 2.8;
+	width: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+.header_mobile ul.menu li.menu-item {
+   
+	margin-top: 5px;
+	opacity: 0;
+	transition: opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+}
+.header_mobile ul.menu li.menu-item:nth-child(1) {
+	transition-delay: 0.35s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(2) {
+	transition-delay: 0.3s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(3) {
+	transition-delay: 0.25s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(4) {
+	transition-delay: 0.2s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(5) {
+	transition-delay: 0.15s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(6) {
+	transition-delay: 0.1s;
+}
+.header_mobile ul.menu li.menu-item:nth-child(7) {
+	transition-delay: 0.05s;
+}
+.header_mobile.menu-open ul.menu li.menu-item {
+	opacity: 1;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(1) {
+	transition-delay: 0.05s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(2) {
+	transition-delay: 0.1s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(3) {
+	transition-delay: 0.15s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(4) {
+	transition-delay: 0.2s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(5) {
+	transition-delay: 0.25s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(6) {
+	transition-delay: 0.3s;
+}
+.header_mobile.menu-open ul.menu li.menu-item:nth-child(7) {
+	transition-delay: 0.35s;
+}
+.hamburger{
+    width: 7vw;
+}
+
+/* Menu Icon */
+.icon-container {
+	position: relative;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	z-index: 2;
+	cursor: pointer;
+	transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+}
+.icon-container #menuicon {
+	width: 20px;
+	height: 10px;
+	position: relative;
+	display: block;
+	margin: -4px auto 0;
+	top: 50%;
+}
+.closed{
+    display: none;
+}
+#menuicon .bar {
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: relative;
+	background: #fff;
+	transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+}
+.hamburger{
+    font-size: 6vw;
+}
+#menuicon .bar.bar1 {
+	-webkit-transform: translateY(0px) rotate(0deg);
+	transform: translateY(0px) rotate(0deg);
+}
+#menuicon .bar.bar2 {
+	-webkit-transform: translateY(6px) rotate(0deg);
+	transform: translateY(6px) rotate(0deg);
+}
+#menuicon .bar.bar3 {
+	-webkit-transform: translateY(12px) rotate(0deg);
+	transform: translateY(12px) rotate(0deg);
+}
+.menu-open  .closed{
+	display: block;
+    font-size: 6vw;
+    color: white;
+    float: right;
+}
+.menu-open .icon-container .hamburger{
+	display: none;
+}
+.menu-open .icon-container .logo{
+	display: none !important;
+}
+.menu-open .icon-container #menuicon .bar {
+	transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+	transition-delay: 0.1s;
+}
+.menu-open .icon-container #menuicon .bar.bar1 {
+	-webkit-transform: translateY(4px) rotate(45deg);
+	transform: translateY(4px) rotate(45deg);
+}
+.menu-open .icon-container #menuicon .bar.bar2 {
+	-webkit-transform: translateY(3px) rotate(-45deg);
+	transform: translateY(3px) rotate(-45deg);
+}
+.mobile_pallete{
+    height: 15vh;
+}
+.navbar{
+    display: none;
+}
+.logo{
+    width: 19vw;
+  }
+
+  .mobile_navbar_accordion{
+    background: transparent !important;
+    border: none;
+    font-size: 4vw;
+    color: white;
+    background-color: transparent !important;
+    text-align: right !important;
+    background: none !important;
+}
+
+.accordion-button::after{
+    margin-left: 0px;
+}
+.mobile_navbar_services{
+    background: transparent !important;
+    border: none;
+    outline: none;
+    color: white;
+    font-size:4vw ;
+    margin-left: 55%;
+   }
+   .dropdown-menu{
+    width: 100% !important;
+    color: black;
+   }
+.service_toggle_mobile{
+    color: #000 !important;
+   }
+   .card_image_work{
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+
+
+  /* ======================================tablet resolution ========================================*/
+
+  @media only screen and (max-width: 990px) {
+
+    .scroll-top{
+        display: none !important;
+    }
+
+    
+  
+
+
+
+
+/* ===========================================================contact Page ===================================================*/
+.contact_heading{
+    text-align: center;
+    font-size: 5vw;
+}
+.contact_para{
+    font-size: 2vw;
+    text-align: center;
+}
+.contact_phone_Number{
+    text-align: center;
+    font-size: 3vw;
+}
+.lonk_para{
+    text-align: center;
+    font-size: 2vw;
+}
+.contact_address_para{
+    font-size: 2vw;
+    text-align: center;
+    margin: 0 auto;
+    width: 60vw;
+}
+.contact_map_button{
+    margin: 0 auto !important;
+    margin-top: 3vw !important;
+    width: 20vw;
+    font-size: 2vw;
+}
+.form_contact{
+    width: 60vw;
+    margin: 0 auto;
+}
+.form_contact_head{
+    font-size: 5vw;
+}
+.input_contact{
+    font-size: 2vw;
+    width: 40vw;
+}
+.contact_vibe,.contact_vibe1{
+    width: 40vw;
+}
+.btn_submit_contact{
+    width: 30vw;
+    font-size: 2vw;
+}
+.unique_head{
+    font-size: 4vw;
+}
+.unique_para{
+    font-size: 2vw;
+}
+.btn_download{
+    width: 20vw;
+    font-size: 2vw;
+}
+
+
+/* =======================================================footer ===================================================*/
+
+.footer_anchor{
+    font-size: 2vw;
+}
+.footer_logo{
+    width: 20vw;
+}
+.footer_address_number{
+    font-size: 2vw;
+    text-align: center;
+}
+.footer_address_number1{
+    font-size: 2vw;
+    text-align: center;
+}
+.add_footer_address{
+    width: 40%;
+    margin: 0 auto;
+}
+.sisaPara,.sisaPara1,.sisaPara2{
+    font-size: 2vw;
+}
+.footer_end_icon{
+    margin: 0 auto !important;
+}
+.icon_social_footer{
+    width: 5vw;
+}
+
+
+/* ==============================================projects ====================================*/
+
+.sidebar_head{
+    display: none;
+}
+.ourProjects_heads{
+    font-size: 5vw;
+}
+.Residential_head{
+    font-size: 4vw;
+}
+.residential_parra{
+    font-size: 2vw;
+}
+.resi_sub_parra{
+    font-size: 2vw;
+}
+.projects_buttons{
+    width: 20vw;
+    font-size: 2vw;
+}
+
+
+/* ============================================career ===============================================*/
+
+.join_head{
+    font-size: 5vw;
+}
+.join_parra{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.careers_img{
+    width: 100%;
+    height: 100%;
+}
+.careers .accordion-button::after{
+margin-left: auto;
+}
+.career_accordion_button{
+    font-size: 3vw;
+}
+.career_list_accord{
+    font-size: 2vw;
+}
+.headaer_career_parra{
+    font-size: 2.7vw;
+}
+.btn_careeers {
+    width: 25vw;
+    font-size: 2vw;
+}
+
+
+/* ============================================constructor estimator ================================*/
+.estimate_client{
+    width: 80%;
+}
+.estimate_head{
+    font-size: 3vw;
+}
+.estimate_para{
+    font-size: 2vw;
+}
+
+.form_register1{
+    width: 100%;
+}
+.form_estimator{
+    width: 30vw;
+    font-size: 2vw;
+}
+.label_estimator_parra{
+    font-size: 2vw;
+}
+.btn_estimator{
+    width: 30vw;
+    font-size: 2vw;
+}
+.disclaimer_para_estimator{
+    font-size: 2vw;
+    width: 80%;
+}
+.compare_package_head{
+    font-size: 4vw;
+}
+.currently_parra{
+    font-size: 3vw;
+}
+
+.esimate_location{
+    font-size: 2vw;
+}
+.estimator_button{
+    font-size: 3vw;
+}
+.slide_estimator_close .accordion-button::after{
+    margin-left: auto;
+}
+.slide_estimator_close .accordion-button{
+    font-size: 2vw;
+}
+.subheading_calculate{
+    font-size: 2.5vw;
+}
+.list-group-item{
+    font-size:2vw !important;
+}
+
+/* ==========================================================Services =======================================================*/
+
+/* construction */
+
+.construction_head_images{
+    height: 30vw;
+}
+.heading_para{
+    font-size: 7vw;
+}
+.services{
+    font-size: 4vw;
+}
+.plan_choose{
+    font-size: 3vw;
+}
+.construction_parra{
+    font-size: 2vw;
+}
+.add_gst{
+font-size: 2.5vw;
+}
+.basics_services_head{
+    font-size: 3vw;
+}
+.typo_services 
+{
+font-size: 2vw;
+}
+
+.Price_para{
+    font-size: 2vw;
+    text-align: center;
+}
+.price_head{
+    font-size: 1.6vw;
+    text-align: center;
+}
+.budget_button{
+    width: 20vw;
+    font-size: 2vw;
+}
+
+/* Interior */
+.interior_head{
+    font-size: 4vw;
+}
+.interior_para{
+    font-size: 2vw;
+}
+
+/* architecture */
+.btn_architect{
+  margin-bottom: 5vw;
+  width: 24vw;
+  font-size: 2vw;
+}
+
+/* renovation */
+.renovation_subhead{
+    width: 20vw;
+    font-size: 3vw;
+}
+.renovation_para{
+    font-size: 2vw;
+    width: 80%;
+}
+.renovation_subhead2{
+    width: 27vw;
+    font-size: 3vw;
+}
+.renovation_subhead1{
+    width: 27vw;
+    font-size: 3vw;
+}
+
+
+/* ============================================about us ======================================*/
+.about_head{
+    font-size: 5vw;
+}
+.about_parra{
+    font-size: 2vw;
+}
+.about_parras{
+    font-size: 2vw;
+}
+.about_images{
+    width: 100%;
+    height: 100%;
+}
+
+.about_subhead{
+    width: 30vw;
+    font-size: 3vw;
+}
+.about_subhead_quality{
+    width: 20vw;
+    font-size: 3vw;
+}
+.about_subhead_payment{
+    width: 30vw;
+    font-size: 3vw;
+}
+.about_subhead_expertise{
+    width: 38vw;
+    font-size: 3vw;
+}
+.about_subhead_complete{
+    width: 38vw;
+    font-size: 3vw;
+}
+
+.ourTeams_head{
+    font-size: 4vw;
+}
+.tab-link{
+    font-size: 2vw;
+}
+.overlay{
+    width: 28vw !important;
+}
+.containersss:hover .image{
+    width: 28vw !important;
+}
+.about_client_head{
+    font-size: 3vw;
+}
+.about_client_para{
+    font-size: 1.5vw;
+}
+.image {
+    display: block;
+    width: 20.32vw;
+    height: 30.15vw;
+    object-fit: cover;
+    -webkit-transition: .9s ease;
+    transition: .4s ease;
+    transform: scale(1);
+  }
+  .estimate_feedback{
+width: 40vw;
+font-size: 2vw;
+}
+
+/* ================================================================Home Page =============================================*/
+
+.home_head{
+    font-size: 4vw;
+    width: 90%;
+}
+.home_banner_button{
+    width: 25vw;
+    font-size: 2vw;
+    color: white;
+}
+.about_home_head{
+    font-size: 5vw;
+}
+.about_home_parra{
+    font-size: 2vw;
+}
+.about_home_button{
+    width: 25vw;
+    font-size: 2vw;
+}
+.counter-value{
+    font-size: 4vw;
+}
+
+.counter_head{
+    font-size: 2.5vw;
+}
+.construction_slide{
+    font-size: 4.5vw;
+}
+.construction_home_head{
+    font-size: 3vw;
+}
+.construction_home_parra{
+    font-size: 1.5vw;
+    width: 80%;
+}
+.valid_images_constructor{
+    width: 100%;
+    height: 100%;
+}
+.constructor_home_head,.how_works{
+    font-size: 4vw;
+}
+.constructor_parra{
+    font-size: 2vw;
+}
+.how_parra_works{
+    font-size: 2vw;
+    width: 70%;
+}
+.step-title{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+.card_work_pages{
+    width: 70vw;
+}
+.raise_request{
+    font-size: 3vw;
+}
+.raise_parra{
+    font-size: 2vw;
+}
+.our_projects{
+    font-size: 5vw;
+}
+.home_currentlyParra{
+    font-size: 2vw;
+    text-align: center;
+}
+.home_location{
+    font-size: 2vw;
+}
+.package_filter_home{
+    width: 20vw;
+}
+
+.mobile_navbar_services{
+    background: transparent !important;
+    border: none;
+    outline: none;
+    color: white;
+    font-size:4vw ;
+    margin-left: 55%;
+   }
+   .dropdown-menu{
+    width: 100% !important;
+    color: black;
+   }
+.service_toggle_mobile{
+    color: #000 !important;
+   }
+   .card_image_work{
+    width: 40vw;
+    height: 40vw;
+  }
+  }
+
+
+  /* ==========================================phone resolution =================================*/
+
+  @media only screen and (max-width: 600px) {
+/* ===========================================================contact Page ===================================================*/
+.contact_heading{
+    text-align: center;
+    font-size: 7vw;
+}
+.contact_para{
+    font-size: 3vw;
+    text-align: center;
+}
+.contact_phone_Number{
+    text-align: center;
+    font-size: 4vw;
+}
+.lonk_para{
+    text-align: center;
+    font-size: 3vw;
+}
+.contact_address_para{
+    font-size: 3vw;
+    text-align: center;
+    margin: 0 auto;
+    width: 60vw;
+}
+.contact_map_button{
+    margin: 0 auto !important;
+    margin-top: 3vw !important;
+    width: 30vw;
+    font-size: 3vw;
+}
+.form_contact{
+    width: 80vw;
+    margin: 0 auto;
+}
+.form_contact_head{
+    font-size: 5vw;
+}
+.input_contact{
+    font-size: 3vw;
+    width: 60vw;
+}
+.contact_vibe,.contact_vibe1{
+    width: 60vw;
+}
+.btn_submit_contact{
+    width: 30vw;
+    font-size: 3vw;
+}
+.unique_head{
+    font-size: 6vw;
+}
+.unique_para{
+    font-size: 3vw;
+    width: 90%;
+}
+.btn_download{
+    width: 30vw;
+    font-size: 3vw;
+}
+
+/* =======================================================footer ===================================================*/
+
+.footer_anchor{
+    font-size: 4vw;
+}
+.footer_logo{
+    width: 20vw;
+}
+.footer_address_number{
+    font-size: 3vw;
+    text-align: center;
+}
+.footer_address_number1{
+    font-size: 3vw;
+    text-align: center;
+}
+.add_footer_address{
+    width: 100%;
+    margin: 0 auto;
+}
+.sisaPara,.sisaPara1,.sisaPara2{
+    font-size: 3vw;
+}
+.footer_end_icon{
+    margin: 0 auto !important;
+}
+.icon_social_footer{
+    width: 7vw;
+}
+
+
+/* ==============================================projects ====================================*/
+
+.sidebar_head{
+    display: none;
+}
+.ourProjects_heads{
+    font-size: 7vw;
+}
+.Residential_head{
+    font-size: 5vw;
+}
+.residential_parra{
+    font-size: 3.9vw;
+}
+.resi_sub_parra{
+    font-size: 3vw;
+}
+.projects_buttons{
+    width: 40vw;
+    font-size: 3vw;
+}
+
+/* ============================================career ===============================================*/
+
+.join_head{
+    font-size: 7vw;
+}
+.join_parra{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.careers_img{
+    width: 100%;
+    height: 100%;
+}
+.careers .accordion-button::after{
+margin-left: auto;
+}
+.career_accordion_button{
+    font-size: 4vw;
+}
+.career_list_accord{
+    font-size: 3vw;
+}
+.headaer_career_parra{
+    font-size: 3.7vw;
+}
+.btn_careeers {
+    width: 35vw;
+    font-size: 3vw;
+}
+
+
+
+/* ============================================constructor estimator ================================*/
+.estimate_client{
+    width: 80%;
+}
+.estimate_head{
+    font-size: 5vw;
+}
+.estimate_para{
+    font-size: 3vw;
+}
+
+.form_register1{
+    width: 100%;
+}
+.form_estimator{
+    width: 50vw;
+    margin: 0 auto;
+    font-size: 3vw;
+}
+.label_estimator_parra{
+    font-size: 3vw;
+}
+.btn_estimator{
+    width: 50vw;
+    font-size: 3vw;
+}
+.disclaimer_para_estimator{
+    font-size: 3vw;
+    width: 90%;
+}
+.compare_package_head{
+    font-size: 6vw;
+}
+.currently_parra{
+    font-size: 4vw;
+}
+
+.esimate_location{
+    font-size: 3vw;
+}
+.estimator_button{
+    font-size: 3vw;
+}
+.slide_estimator_close .accordion-button::after{
+    margin-left: auto;
+}
+.slide_estimator_close .accordion-button{
+    font-size: 3vw;
+}
+.subheading_calculate{
+    font-size: 3vw;
+}
+.list-group-item{
+    font-size:2.8vw !important;
+}
+
+
+
+/* ==========================================================Services =======================================================*/
+
+/* construction */
+
+.construction_head_images{
+    height: 70vw;
+}
+.heading_para{
+    font-size: 8vw;
+}
+.services{
+    font-size: 6vw;
+}
+.plan_choose{
+    font-size: 4vw;
+}
+.construction_parra{
+    font-size: 3vw;
+}
+.add_gst{
+font-size: 3.5vw;
+}
+.basics_services_head{
+    font-size: 4vw;
+}
+.typo_services 
+{
+font-size: 3vw;
+}
+
+.Price_para{
+    font-size: 3vw;
+    text-align: center;
+}
+.price_head{
+    font-size: 2.6vw;
+    text-align: center;
+}
+.budget_button{
+    width: 40vw;
+    font-size: 2.8vw;
+}
+/* renovation */
+.renovation_subhead{
+    width: 100%;
+    border: 0px;
+    font-size: 7vw;
+}
+.renovation_para{
+    font-size: 3.5vw;
+    width: 80%;
+}
+.renovation_subhead2{
+    width: 100%;
+    border: 0px;
+    font-size: 7vw;
+}
+.renovation_subhead1{
+    width: 100%;
+    border: 0px;
+    font-size: 7vw;
+}
+
+
+
+/* ============================================about us ======================================*/
+.about_head{
+    font-size: 7vw;
+}
+.about_parra{
+    font-size: 3vw;
+}
+.about_parras{
+    font-size: 3vw;
+}
+.about_images{
+    width: 100%;
+    height: 100%;
+}
+
+.about_subhead{
+    width: 50vw;
+    font-size: 5vw;
+}
+.about_subhead_quality{
+    width: 50vw;
+    font-size: 5vw;
+}
+.about_subhead_payment{
+    width: 50vw;
+    font-size: 5vw;
+}
+.about_subhead_expertise{
+    width: 50vw;
+    font-size: 5vw;
+}
+.about_subhead_complete{
+    width: 50vw;
+    font-size: 5vw;
+}
+
+.ourTeams_head{
+    font-size: 4vw;
+}
+.tab-link{
+    font-size: 2vw;
+}
+.overlay{
+    width: 28vw !important;
+}
+.containersss:hover .image{
+    width: 28vw !important;
+}
+.about_client_head{
+    font-size: 3vw;
+}
+.about_client_para{
+    font-size: 1.5vw;
+}
+.image {
+    display: block;
+    width: 20.32vw;
+    height: 30.15vw;
+    object-fit: cover;
+    -webkit-transition: .9s ease;
+    transition: .4s ease;
+    transform: scale(1);
+  }
+  .estimate_feedback{
+width: 40vw;
+font-size: 2vw;
+}
+.ourTeams_head{
+    font-size: 5vw;
+}
+.tab-link{
+    font-size: 2vw;
+}
+.overlay{
+    width: 40.32vw !important;
+    opacity: 1;
+}
+.containersss:hover .image{
+    width: 40.32vw !important;
+}
+.containersss{
+    width: 40.32vw !important;
+}
+.about_client_head{
+    font-size: 3vw;
+}
+.about_client_para{
+    font-size: 2vw;
+}
+.image {
+    display: block;
+    width: 40.32vw !important;
+    height: 35.15vw;
+    object-fit: cover;
+    -webkit-transition: .9s ease;
+    transition: .4s ease;
+    transform: scale(1);
+  }
+  .rectangle_images, .rectangle_images2{
+    position: relative;
+    width: 40.23vw;
+    height:50.22vw ;
+    z-index: 99;
+    left: 20%;
+}
+.rectangle_images1, .rectangle_images3{
+    left:50%;
+    width: 30.23vw;
+    height:30.22vw ;
+}
+
+ul.tabs li{
+padding: 10px 5px;
+}
+.tab-link{
+font-size: 3vw;
+}
+
+
+/* ================================================================Home Page =============================================*/
+
+.home_head{
+    font-size: 6vw;
+    width: 90%;
+}
+.home_banner_button{
+    width: 35vw;
+    font-size: 3.5vw;
+    color: white;
+}
+.about_home_head{
+    font-size: 7vw;
+}
+.about_home_parra{
+    font-size: 3vw;
+}
+.about_home_button{
+    width: 30vw;
+    font-size: 3vw;
+    margin: 0 auto;
+}
+.counter-value{
+    font-size: 6vw;
+}
+
+.counter_head{
+    font-size: 3.5vw;
+}
+.construction_slide{
+    font-size: 6.5vw;
+    margin-top: 30%;
+}
+.construction_home_head{
+    font-size: 4vw;
+}
+.construction_home_parra{
+    font-size: 2.5vw;
+    width: 100%;
+}
+.valid_images_constructor{
+    width: 100%;
+    height: 100%;
+}
+.how_works{
+    font-size: 4vw;
+}
+.constructor_parra{
+    font-size: 3vw !important;
+}
+.constructor_home_head{
+    font-size: 7vw !important;
+}
+.how_parra_works{
+    font-size: 2vw;
+    width: 70%;
+}
+.step-title{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+.card_work_pages{
+    width: 90vw;
+}
+.raise_request{
+    font-size: 4vw;
+}
+.raise_parra{
+    font-size: 3vw;
+}
+.our_projects{
+    font-size: 5vw;
+}
+.home_currentlyParra{
+    font-size: 3vw;
+    text-align: center;
+}
+.home_location{
+    font-size: 3vw;
+}
+.package_filter_home{
+    width: 40vw;
+}
+.carousel-nav .flickity-viewport{
+    margin-top: -10%;
+    height: 5vh !important;
+}
+.constructor_images{
+    width: 100%;
+    height: 100%;
+}
+.constructor_parra{
+    text-align: center;
+}
+.construct_button{
+    width: 30vw;
+    margin: 0 auto;
+}
+.how_works{
+    font-size: 6vw;
+}
+.how_parra_works{
+    font-size: 3vw;
+    width: 90%;
+}
+
+.our_home_project,.our_home_project1,.our_home_project2,.our_home_project3,.our_home_project4{
+    width: 50vw;
+   height: 40vw; 
+}
+.our_home_project_head{
+    font-size: 4vw;
+}
+.step-title{
+    display: none;
+}
+.logo1{
+    width: 15vw;
+ }
+ .card_image_work{
+    width: 40vw;
+    height: 40vw;
+  }
+  .step-item{
+    margin-left: 0%;
+    margin-top: -5%;
+  }
+  }
