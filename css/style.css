@@ -714,6 +714,12 @@ margin-top: 10%;
     width: 14vw;
     margin: 0 auto;
 }
+.about_client_head{
+    font-size: 1.3vw;
+}
+.about_client_para{
+    font-size: 1vw;
+}
 .about_subhead_quality{
     font-size: 1.5vw;
     color: #263183;
@@ -1187,7 +1193,9 @@ border: none;
     text-align: center;
     font-size: 1.4vw;
 }
+.slide_estimator_close{
 
+}
 
 .constructor_home_head{
     text-align: center;
@@ -1460,7 +1468,8 @@ border: none;
   }
   .package_filter_home{
     background: #263183;
-    width: 8vw;
+    padding-left: 15px;
+    padding-right: 15px;
     border: none;
     outline: none;
     color: white;
